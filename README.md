@@ -76,7 +76,7 @@ python manage.py migrate and python manage.py runserver.
 
 ## Body payload
 
-### Post api/3.0/ 
+### Post api/les50 
 
 {
     "owner":"pablo",
@@ -87,14 +87,6 @@ python manage.py migrate and python manage.py runserver.
 
 }
 
-### Put api/3.0/:id
-
-
-{
-    "anualConsumption":"",
-    "annualSavings":"",
-    "recomendedPower":""
-}
 
 
 ### Post api/companies/
