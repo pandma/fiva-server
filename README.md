@@ -54,15 +54,23 @@ python manage.py migrate and python manage.py runserver.
 
 
 {
+    <br/>
     owner = models.CharField(max_length=100)
+    <br/>
     direction = models.CharField(max_length=100)
+    <br/>
     postalcode = models.CharField(max_length=100)
+    <br/>
     cups = models.CharField(max_length=100)
+    <br/>
     nif = models.CharField(max_length=100)
+    <br/>
     anualConsumption = models.CharField(max_length=100, blank=True)
+    <br/>
     annualSavings = models.CharField(max_length=100, blank=True)
+    <br/>
     recomendedPower = models.CharField(max_length=100, blank=True)
-
+    <br/>
 }
 
 
