@@ -3,6 +3,8 @@ from .views.Register_views import RegisterView, LoginView, VerifyUserView, Logou
 from .views.Comapnies_views import companies_views
 from .views.Maximeter_up_to_50_views import Maximeter_up_to_50Views
 from .views.Maximeter_50_plus_views import Maximeter_50_plusViews
+from .views.Contact_User_views import Contact_user_views
+
 
 
 urlpatterns = [
@@ -13,4 +15,5 @@ urlpatterns = [
     path('companies', companies_views.as_view()),
     path('les50', Maximeter_up_to_50Views.as_view()),
     path('max50', Maximeter_50_plusViews.as_view()),
+    path('contact', Contact_user_views.as_view()),
 ]
