@@ -62,6 +62,7 @@ class VerifyUserView(APIView):
 
         user = User.objects.filter(id=foo['id']).first()
         serializer = UserSerializer(user)
+        print("eyyy",serializer.data)
         return Response(serializer.data)
 
 
